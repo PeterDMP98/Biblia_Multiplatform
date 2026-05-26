@@ -1,0 +1,78 @@
+# Tareas
+
+Lista viva de trabajo. Actualizar al avanzar.
+
+## Preparacion
+
+- [x] Crear documentacion base del proyecto.
+- [x] Registrar contexto persistente para IA.
+- [x] Registrar referencias visuales.
+- [x] Preparar `.gitignore` inicial.
+- [x] Inicializar repositorio Git.
+- [x] Crear primer commit base.
+- [ ] Crear proyecto Flutter.
+- [ ] Definir estructura inicial de carpetas.
+- [ ] Definir convenciones de nombres.
+
+## Arquitectura
+
+- [x] Definir arquitectura inicial por capas.
+- [x] Definir recomendacion de estado y base local.
+- [x] Definir modos de lectura del MVP.
+- [x] Definir Reader State inicial.
+- [ ] Definir modelos de dominio en codigo.
+- [ ] Definir contratos de repositorios en codigo.
+- [ ] Definir Reader Controller en codigo.
+- [ ] Definir Cache Manager en codigo.
+- [ ] Definir sistema de shortcuts.
+
+## Datos
+
+- [x] Definir esquema SQLite inicial.
+- [x] Definir formato de importacion de versiones biblicas.
+- [x] Descargar RV1909 como version libre para desarrollo.
+- [x] Descargar ASV, KJV y WEB como versiones inglesas libres.
+- [x] Documentar fuentes de datos biblicos.
+- [ ] Crear convertidor USFX a formato intermedio.
+- [ ] Preparar RV1865 desde modulo SWORD o buscar fuente USFX/USFM.
+- [ ] Investigar fuente redistribuible para Biblia del Oso 1569.
+- [ ] Investigar fuente redistribuible para Biblia del Cantaro 1602.
+- [ ] Investigar fuente redistribuible para Version Moderna / H. B. Pratt.
+- [ ] Crear importador externo para archivos provistos por el usuario.
+- [ ] Investigar/licenciar RVR60 para distribucion.
+- [ ] Investigar/licenciar TLA para distribucion.
+- [ ] Crear repositorio local de lectura.
+
+## Lectura
+
+- [ ] Implementar modo lectura enfocada.
+- [ ] Implementar modo capitulo completo.
+- [ ] Implementar navegacion horizontal.
+- [ ] Implementar buffer de capitulo anterior, actual y siguiente.
+- [ ] Implementar buffer de versiculo anterior, actual y siguiente.
+- [ ] Implementar doble panel.
+
+## Estudio
+
+- [ ] Implementar busqueda simple.
+- [ ] Implementar resaltados desacoplados.
+- [ ] Implementar notas.
+- [ ] Implementar favoritos.
+- [ ] Implementar marcadores.
+- [ ] Implementar historial.
+
+## Presentacion
+
+- [ ] Definir ventana operador.
+- [ ] Definir ventana proyeccion.
+- [ ] Implementar modo presentacion limpio.
+- [ ] Ocultar notas, resaltados y UI secundaria en proyeccion.
+
+## Diseno
+
+- [ ] Definir tokens de color.
+- [ ] Definir tipografias.
+- [ ] Crear tema claro.
+- [ ] Crear tema oscuro.
+- [ ] Crear componentes base.
+- [ ] Validar diseno contra referencias de `estilos`.
