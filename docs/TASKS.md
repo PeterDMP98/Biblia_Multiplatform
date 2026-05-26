@@ -10,8 +10,8 @@ Lista viva de trabajo. Actualizar al avanzar.
 - [x] Preparar `.gitignore` inicial.
 - [x] Inicializar repositorio Git.
 - [x] Crear primer commit base.
-- [ ] Crear proyecto Flutter.
-- [ ] Definir estructura inicial de carpetas.
+- [x] Crear proyecto Flutter.
+- [x] Definir estructura inicial de carpetas.
 - [ ] Definir convenciones de nombres.
 
 ## Arquitectura
@@ -20,15 +20,16 @@ Lista viva de trabajo. Actualizar al avanzar.
 - [x] Definir recomendacion de estado y base local.
 - [x] Definir modos de lectura del MVP.
 - [x] Definir Reader State inicial.
-- [ ] Definir modelos de dominio en codigo.
+- [x] Definir modelos de dominio en codigo.
 - [ ] Definir contratos de repositorios en codigo.
-- [ ] Definir Reader Controller en codigo.
+- [x] Definir Reader Controller en codigo.
 - [ ] Definir Cache Manager en codigo.
 - [ ] Definir sistema de shortcuts.
 
 ## Datos
 
 - [x] Definir esquema SQLite inicial.
+- [x] Crear esquema SQLite inicial en Drift.
 - [x] Definir formato de importacion de versiones biblicas.
 - [x] Descargar RV1909 como version libre para desarrollo.
 - [x] Descargar ASV, KJV y WEB como versiones inglesas libres.
@@ -45,12 +46,13 @@ Lista viva de trabajo. Actualizar al avanzar.
 
 ## Lectura
 
-- [ ] Implementar modo lectura enfocada.
-- [ ] Implementar modo capitulo completo.
+- [x] Crear lector visual mock.
+- [x] Implementar mock de lectura enfocada.
+- [x] Implementar mock de modo capitulo completo.
 - [ ] Implementar navegacion horizontal.
 - [ ] Implementar buffer de capitulo anterior, actual y siguiente.
 - [ ] Implementar buffer de versiculo anterior, actual y siguiente.
-- [ ] Implementar doble panel.
+- [x] Implementar mock de doble panel.
 
 ## Estudio
 
@@ -70,9 +72,9 @@ Lista viva de trabajo. Actualizar al avanzar.
 
 ## Diseno
 
-- [ ] Definir tokens de color.
-- [ ] Definir tipografias.
-- [ ] Crear tema claro.
-- [ ] Crear tema oscuro.
+- [x] Definir tokens de color iniciales.
+- [x] Definir tipografias iniciales.
+- [x] Crear tema claro inicial.
+- [x] Crear tema oscuro inicial.
 - [ ] Crear componentes base.
 - [ ] Validar diseno contra referencias de `estilos`.
