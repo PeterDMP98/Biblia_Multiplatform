@@ -34,7 +34,11 @@ Lista viva de trabajo. Actualizar al avanzar.
 - [x] Descargar RV1909 como version libre para desarrollo.
 - [x] Descargar ASV, KJV y WEB como versiones inglesas libres.
 - [x] Documentar fuentes de datos biblicos.
-- [ ] Crear convertidor USFX a formato intermedio.
+- [x] Crear convertidor USFX a formato intermedio.
+- [x] Crear importador de formato intermedio a SQLite.
+- [x] Crear CLI local de importacion USFX.
+- [x] Validar importacion local de RV1909, ASV, KJV y WEB.
+- [ ] Definir filtro de canon visible por defecto para versiones con libros extra.
 - [ ] Preparar RV1865 desde modulo SWORD o buscar fuente USFX/USFM.
 - [ ] Investigar fuente redistribuible para Biblia del Oso 1569.
 - [ ] Investigar fuente redistribuible para Biblia del Cantaro 1602.

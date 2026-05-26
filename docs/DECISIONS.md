@@ -79,3 +79,15 @@ Razon: una version antigua puede ser dominio publico, pero la transcripcion digi
 Decision: crear un modulo de importacion externa para archivos provistos por el usuario, sin descargar automaticamente textos con copyright.
 
 Razon: permite a iglesias y usuarios cargar versiones que ya tengan derecho a usar, mientras la app mantiene separada la responsabilidad legal y conserva una arquitectura offline con SQLite.
+
+## 2026-05-26: Importador USFX Primero
+
+Decision: comenzar el pipeline de datos con USFX como formato fuente soportado.
+
+Razon: RV1909, ASV, KJV y WEB ya estan disponibles localmente en USFX desde eBible, lo que permite poblar SQLite con datos reales antes de resolver formatos adicionales como SWORD o MySword.
+
+## 2026-05-26: Canon Visible Pendiente
+
+Decision: importar todos los libros presentes en cada fuente, pero dejar pendiente el filtro de canon visible por defecto.
+
+Razon: KJV y WEB descargadas desde eBible incluyen mas de 66 libros. El motor de datos puede conservarlos, pero la experiencia inicial debe decidir si muestra todos o solo canon protestante por defecto.

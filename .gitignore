@@ -38,6 +38,7 @@ windows/flutter/ephemeral/
 
 # Local raw Bible downloads
 data/raw/
+data/generated/
 
 # Generated databases
 *.sqlite

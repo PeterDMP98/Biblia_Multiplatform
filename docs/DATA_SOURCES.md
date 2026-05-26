@@ -152,6 +152,7 @@ Notas:
 
 - Usar con nota de licencia para Reino Unido.
 - Para distribucion inicial enfocada en America, es viable.
+- El paquete USFX importado contiene 80 libros. Falta decidir si la UI muestra todos o filtra por canon protestante de 66 libros por defecto.
 
 Archivos locales:
 
@@ -184,6 +185,7 @@ Estado del proyecto: `incluida`.
 Notas:
 
 - "World English Bible" es marca de eBible.org; si se modifica el texto, no debe conservar ese nombre.
+- El paquete USFX importado contiene 81 libros. Falta decidir si la UI muestra todos o filtra por canon protestante de 66 libros por defecto.
 
 Archivos locales:
 
@@ -229,8 +231,31 @@ Notas:
 
 ## Estrategia Tecnica
 
-1. Crear importador para formato intermedio propio.
-2. Crear convertidor USFX -> formato intermedio.
-3. Insertar formato intermedio en SQLite.
-4. Mantener metadatos de licencia por version.
-5. Permitir que futuras versiones licenciadas entren por el mismo importador.
+1. Convertir USFX -> formato intermedio propio.
+2. Insertar formato intermedio en SQLite.
+3. Mantener metadatos de licencia por version.
+4. Permitir que futuras versiones licenciadas entren por el mismo importador.
+5. Permitir importacion externa con aviso legal.
+
+## Importador Local
+
+Comando base:
+
+```text
+dart run tool/import_usfx.dart --version rv1909 --input data/raw/rv1909/usfx/spaRV1909_usfx.xml --sqlite data/generated/bibles.sqlite
+```
+
+Validacion local:
+
+```text
+dart run tool/inspect_bible_database.dart data/generated/bibles.sqlite
+```
+
+Conteos validados:
+
+| Version | Libros importados | Versiculos importados |
+| --- | ---: | ---: |
+| RV1909 | 66 | 31084 |
+| ASV | 66 | 31086 |
+| KJV | 80 | 36822 |
+| WEB | 81 | 38029 |
