@@ -17,7 +17,7 @@ class ReaderState {
   factory ReaderState.initial() {
     return ReaderState(
       currentReference: const VerseReference(
-        bookId: 'john',
+        bookId: 'JHN',
         bookName: 'Juan',
         chapter: 3,
         verse: 16,

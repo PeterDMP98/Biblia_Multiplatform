@@ -21,7 +21,7 @@ Lista viva de trabajo. Actualizar al avanzar.
 - [x] Definir modos de lectura del MVP.
 - [x] Definir Reader State inicial.
 - [x] Definir modelos de dominio en codigo.
-- [ ] Definir contratos de repositorios en codigo.
+- [x] Definir contratos de repositorios en codigo.
 - [x] Definir Reader Controller en codigo.
 - [ ] Definir Cache Manager en codigo.
 - [ ] Definir sistema de shortcuts.
@@ -46,13 +46,14 @@ Lista viva de trabajo. Actualizar al avanzar.
 - [ ] Crear importador externo para archivos provistos por el usuario.
 - [ ] Investigar/licenciar RVR60 para distribucion.
 - [ ] Investigar/licenciar TLA para distribucion.
-- [ ] Crear repositorio local de lectura.
+- [x] Crear repositorio local de lectura.
 
 ## Lectura
 
 - [x] Crear lector visual mock.
 - [x] Implementar mock de lectura enfocada.
 - [x] Implementar mock de modo capitulo completo.
+- [x] Conectar lector visual a SQLite local.
 - [ ] Implementar navegacion horizontal.
 - [ ] Implementar buffer de capitulo anterior, actual y siguiente.
 - [ ] Implementar buffer de versiculo anterior, actual y siguiente.

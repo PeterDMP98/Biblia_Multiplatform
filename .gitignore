@@ -5,6 +5,7 @@ Thumbs.db
 # Editors
 .idea/
 .vscode/
+devtools_options.yaml
 *.iml
 *.swp
 *.swo
